@@ -2,6 +2,7 @@ $(document).ready(function () {
     var playerCount = 0;
     var nums = [0, 1, 2, 3, 4, 5, 6, 7, 8];
     var player = "";
+    var winner;
     $("#buttons").hide();
     $("#resetButton").hide();
     $("#choose").html("Select X or O to Play!");
@@ -43,7 +44,7 @@ $(document).ready(function () {
     };
 
     function win() {
-        var winner = false;
+        winner = false;
         if ($("#buttonText0").html() === "X" && $("#buttonText1").html() === "X" && $("#buttonText2").html() === "X") {
             $("#0, #1, #2").css("background-color", "rgba(255,204,0,0.8)");
             $("#winner").html("Player X Wins!");
