@@ -1,0 +1,59 @@
+.button {
+    display: block;
+    color: black;
+    font-size: 1em;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+}
+
+.buttonFont {
+    font-family: Futura;
+    font-size: 3.5em;
+    padding: 15px;
+}
+
+.button:hover {
+    background-color: rgba(255, 204, 0, 0.8);
+}
+
+#buttons {
+    margin-left: 811px;
+    margin-top: 50px;
+}
+
+.selectButton {
+    margin-top: 100px;
+    width: 250px;
+    height: 50px;
+    border: 1px solid black;
+}
+
+.selectButtonFont {
+    font-family: Cursive, Futura;
+    font-size: 35px;
+}
+
+.selectButton:hover {
+    background-color: rgba(255, 204, 0, 0.8);
+}
+
+#resetButton {
+    margin-top: 40px;
+    width: 250px;
+    height: 50px;
+    border: 1px solid black;
+}
+
+#resetText {
+    font-family: Cursive, Futura;
+    font-size: 35px;
+}
+
+#resetButton:hover {
+    background-color: rgba(255, 204, 0, 0.8);
+}
+
+h2 {
+    margin-top: 15px;
+}
