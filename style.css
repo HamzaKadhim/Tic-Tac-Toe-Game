@@ -1,7 +1,6 @@
 html,
 body {
-    background: url(https://s3.envato.com/files/156884535/Game_Background_Emerald_Lake_4270x2135.jpg);
-    padding-top: 10px;
+    background: url(https://s3.envato.com/files/156884535/Game_Background_Emerald_Lake_4270x2135.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 
