@@ -192,21 +192,17 @@ $(document).ready(function () {
         };
     });
 
-    $(".selectButton").click(function (reset) {
+    $(".selectButton").click(function () {
         if (this.id === "selectX") {
             player = "X";
             $(".selectButton").hide();
             $("#buttons").show();
             $("#resetButton").show();
-            $("#selectX").css("background-color", "rgba(255,204,0,0.8)");
-            $("#selectO").css("background-color", "");
         } else if (this.id === "selectO") {
             player = "O";
             $(".selectButton").hide();
             $("#buttons").show();
             $("#resetButton").show();
-            $("#selectO").css("background-color", "rgba(255,204,0,0.8)");
-            $("#selectX").css("background-color", "");
         }
         if (player !== "") {
             $("#choose").html("");
